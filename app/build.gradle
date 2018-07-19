@@ -52,5 +52,9 @@ dependencies {
     implementation 'com.firebaseui:firebase-ui-auth:4.1.0'
     // Fire base Storage
     implementation 'com.google.firebase:firebase-storage:16.0.1'
+    // Fire base Cloud messaging
+    implementation 'com.google.firebase:firebase-messaging:17.1.0'
+    // Fire base Remote config
+    implementation 'com.google.firebase:firebase-config:16.0.0'
 }
 apply plugin: 'com.google.gms.google-services'
