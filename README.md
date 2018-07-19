@@ -1,3 +1,6 @@
+This repo is a project done while following the Udacity firebase course. It uses recent version of dependency unlike the ones covered in the video course.
+
+
 # FriendlyChat
 
 This repository contains code for the FriendlyChat project in the [Firebase in a Weekend: Android by Google](https://www.udacity.com/course/firebase-in-a-weekend-by-google-android--ud0352) Udacity course.
