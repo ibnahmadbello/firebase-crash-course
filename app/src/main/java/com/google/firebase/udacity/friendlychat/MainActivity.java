@@ -102,6 +102,7 @@ public class MainActivity extends AppCompatActivity {
         mFirebaseRemoteConfig = FirebaseRemoteConfig.getInstance();
 
         mMessagesDatabaseReference = mFirebaseDatabase.getReference().child("messages");
+        mMessagesDatabaseReference.keepSynced(true);
         mChatPhotoStorageReference = mFirebaseStorage.getReference().child("chat_photos");
 
         // Initialize references to views
